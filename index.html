@@ -386,57 +386,62 @@
                     </div>
                 </div>
 
-                <div class="col-lg-8 col-md-7">
-                    <div class="contact-form">
-                        <form action="">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <input type="text" placeholder="Your Name" class="form-control">
-                                    </div>
-                                </div>
+              <div class="col-lg-8 col-md-7">
+    <div class="contact-form">
+        <form action="https://formsubmit.co/studykrishnawork@gmail.com" method="POST" class="newsletter-form" id="contactForm">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" class="form-control" required>
+                    </div>
+                </div>
 
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <input type="email" placeholder="Your TELEGRAM" class="form-control">
-                                    </div>
-                                </div>
-                                
-                            </div>
-
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="form-group">
-                                        <input type="text" placeholder="Your Phone" class="form-control">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="form-group">
-                                        <input type="text" placeholder="MEME TYPE" class="form-control">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="form-group">
-                                        <textarea name="" id="" placeholder="Your Message" class="form-control"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="home-btn">
-                                    <a href="https://t.me/shikarimemers" class="btn-1">Send Memes</a>
-                            </div>
-                            </div>
-                        </form>
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <input type="email" name="telegram" placeholder="Your TELEGRAM" class="form-control" required>
                     </div>
                 </div>
             </div>
-        </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="form-group">
+                        <input type="text" name="phone" placeholder="Your Phone" class="form-control" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="form-group">
+                        <input type="text" name="meme_type" placeholder="MEME TYPE" class="form-control" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" class="form-control" required></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hidden Fields for FormSubmit.co -->
+            <input type="hidden" name="_captcha" value="true">
+            <input type="hidden" name="_subject" value="NEW MEME REQUEST SUBMISSION">
+            
+            <input type="hidden" name="_autoresponse" 
+                value="🚀 Thank you for submitting your meme request! We're excited to review it. Stay tuned for updates! 🎉">
+
+            <!-- Submit Button -->
+            <div class="home-btn">
+                <button type="submit" class="btn-1">Send Memes</button>
+            </div>
+        </form>
+    </div>
+</div>
+
     </section>
 
     <footer class="footer">
