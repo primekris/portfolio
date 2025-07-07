@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 :root {
-    --main-color: #a800a8;
+    --main-color: #555555;         /* Changed from #a800a8 (pink) to #555555 (grey) */
     --black100: #f7f7f7;
     --black400: #555555;
     --black900: #000000;
-    --white: #f4f4f4; /* Changed from #ffffff to a soft grey */
+    --white: #ffffff;
 
     --shadow-black100: 0 5px 15px rgba(0, 0, 0, .1);
     --shadow-black300: 0 5px 15px rgba(0, 0, 0, .3);
@@ -17,7 +17,7 @@ body {
     font-size: 16px;
     font-weight: normal;
     overflow-x: hidden;
-    background-color: var(--white); /* Uses the new grey */
+    background-color: var(--white);
 }
 
 * { margin: 0; padding: 0; outline: none !important; }
