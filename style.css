@@ -5,7 +5,7 @@
     --black100: #f7f7f7;
     --black400: #555555;
     --black900: #000000;
-    --white: #ffffff;
+    --white: #f4f4f4; /* Changed from #ffffff to a soft grey */
 
     --shadow-black100: 0 5px 15px rgba(0, 0, 0, .1);
     --shadow-black300: 0 5px 15px rgba(0, 0, 0, .3);
@@ -17,7 +17,7 @@ body {
     font-size: 16px;
     font-weight: normal;
     overflow-x: hidden;
-    background-color: #f4f4f4;
+    background-color: var(--white); /* Uses the new grey */
 }
 
 * { margin: 0; padding: 0; outline: none !important; }
